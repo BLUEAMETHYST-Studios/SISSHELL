@@ -110,7 +110,7 @@ while True:
     elif SISSHELL == "sys":
         print("\n")
         print(Fore.LIGHTBLUE_EX + "   _____ _____  _____ _____ _    _ ______ _      _      " + Fore.LIGHTGREEN_EX + "  Running: SISSHELL")
-        print(Fore.LIGHTBLUE_EX + "  / ____|_   _|/ ____/ ____| |  | |  ____| |    | |     " + Fore.LIGHTGREEN_EX + "  Version: Beta 1.0") 
+        print(Fore.LIGHTBLUE_EX + "  / ____|_   _|/ ____/ ____| |  | |  ____| |    | |     " + Fore.LIGHTGREEN_EX + "  Version: Beta 1.1") 
         print(Fore.LIGHTBLUE_EX + " | (___   | | | (___| (___ | |__| | |__  | |    | |     " + Fore.LIGHTGREEN_EX + "  Username: " + USERNAME)
         print(Fore.LIGHTBLUE_EX + "  \___ \  | |  \___ \ ___ \|  __  |  __| | |    | |     " + Fore.LIGHTGREEN_EX + "  Device Name: " + HOST)
         print(Fore.LIGHTBLUE_EX + "  ____) |_| |_ ____) |___) | |  | | |____| |____| |____ " + Fore.LIGHTGREEN_EX + "  OS: " + OS)
