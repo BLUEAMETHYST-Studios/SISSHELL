@@ -11,9 +11,9 @@ just add it by creating a new profile and then choose the EXE in %LOCALAPPDATA%/
 
 ### License:
 
-SISSHELL (c) by BLUEAMETHYST Studios
+[SISSHELL](http://blueamethyst.me/) (c) by BLUEAMETHYST Studios
 
-SISSHELL is licensed under a
+[SISSHELL](http://blueamethyst.me/) is licensed under a
 Creative Commons Attribution-NonCommercial 4.0 International License.
 
 You should have received a copy of the license along with this
