@@ -71,7 +71,7 @@ checkAdmin()
 
 os.chdir("C:/Users/" + USERNAME)
 
-print(Fore.LIGHTGREEN_EX + "SISSHELL " + Fore.LIGHTBLUE_EX + "v.1.0")
+print(Fore.LIGHTGREEN_EX + "SISSHELL " + Fore.LIGHTBLUE_EX + "Beta v.1.1")
 print(Fore.LIGHTGREEN_EX + 'Type "help" for assistance!')
 print("\n")
 
@@ -106,7 +106,7 @@ while True:
         print(Fore.WHITE + "\n======================================================================================================================")
     
     elif SISSHELL == "whoami":
-        print(Fore.WHITE + "Current Host: " + Fore.CYAN + USERNAME)
+        print(Fore.LIGHTGREEN_EX + "Current Host: " + Fore.CYAN + USERNAME)
     elif SISSHELL == "sys":
         print("\n")
         print(Fore.LIGHTBLUE_EX + "   _____ _____  _____ _____ _    _ ______ _      _      " + Fore.LIGHTGREEN_EX + "  Running: SISSHELL")
@@ -118,7 +118,7 @@ while True:
         print("\n")
     elif SISSHELL == "reg-admin":
         if os.path.exists("C:/Users/" + USERNAME + "/AppData/Local/SISSHELL/master-data.txt"):
-            print(Fore.RED + 'An admin account was already created!\nDo you want to replace the password?\nType "reset-pw" to do that!')
+            print(Fore.RED + 'An admin account was already created!\nDo you want to replace the password?\nType y or n to do that!')
             print(Fore.RED + 'If you want to remove the admin account, type "rm-admin"!')
             ADMIN_RESET_PW = input(str(Fore.LIGHTBLUE_EX + "SISSHELL" + Fore.WHITE + "/" + Fore.LIGHTGREEN_EX + USERNAME + Fore.WHITE + "/" + Fore.CYAN + "ADMIN" + Fore.WHITE + " (y/n/rm-admin) > " + Fore.YELLOW))
             if ADMIN_RESET_PW == "y" or ADMIN_RESET_PW == "Y":
@@ -252,7 +252,7 @@ while True:
             with open(str(CF), "w") as cf:
                 cf.write("")
                 cf.close()
-                print(Fore.LIGHTGREEN_EX + "The file should've been created!")
+                print(Fore.LIGHTGREEN_EX + "A new file was created!")
     except IndexError:
         pass
     except PermissionError:
