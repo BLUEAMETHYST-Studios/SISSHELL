@@ -6,7 +6,7 @@ Set-Location ~\AppData\Local\SISSHELL
 Write-Host Downloading ...
 
 $ProgressPreference = "SilentlyContinue"
-Invoke-WebRequest -Uri "https://github.com/BLUEAMETHYST-Studios/SISSHELL/raw/main/sis.exe" -OutFile "~\AppData\Local\SISSHELL\sis.exe"
+Invoke-WebRequest -Uri "https://github.com/BLUEAMETHYST-Studios/SISSHELL/raw/B1.0/sis.exe" -OutFile "~\AppData\Local\SISSHELL\sis.exe"
 
 Clear-Host
 
