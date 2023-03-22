@@ -1,4 +1,4 @@
-# SISSHELL
+# SISSHELL - Sleek Interface Syntax-Focused Shell
 Custom Shell (Based on Windows CMD), coded with Python
 
 ## How to install
